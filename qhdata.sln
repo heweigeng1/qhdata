@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManC", "ManC\ManC.csproj", "{798E5378-26B7-4874-A03E-0EFA32627012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharppcap", "sharppcap\sharppcap.csproj", "{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{798E5378-26B7-4874-A03E-0EFA32627012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798E5378-26B7-4874-A03E-0EFA32627012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798E5378-26B7-4874-A03E-0EFA32627012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798E5378-26B7-4874-A03E-0EFA32627012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
