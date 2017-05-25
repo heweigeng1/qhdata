@@ -1,4 +1,5 @@
-﻿using System;
+﻿using core;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,8 +13,9 @@ namespace ManC
     {
         static void Main(string[] args)
         {
-          string data=  Get("http://hq.sinajs.cn/list=M0");
-            Console.WriteLine(data);
+          string data=  Get("http://hq.sinajs.cn/list=RB1710");
+          var array=  data.Split('"');
+            QHModel model = new QHModel(array[1]);
             Console.ReadKey();
         }
         public static string Get(string url)

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManC", "ManC\ManC.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharppcap", "sharppcap\sharppcap.csproj", "{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "core\core.csproj", "{5C6BCDF6-C406-4FAC-AC4C-908BDA26DDDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC487FFA-F785-4241-B4F3-A7EBC269AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6BCDF6-C406-4FAC-AC4C-908BDA26DDDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6BCDF6-C406-4FAC-AC4C-908BDA26DDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6BCDF6-C406-4FAC-AC4C-908BDA26DDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6BCDF6-C406-4FAC-AC4C-908BDA26DDDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

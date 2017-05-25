@@ -11,8 +11,11 @@ namespace sharppcap
     {
         static void Main(string[] args)
         {
-            var cap = WinCapHelper.WinCapInstance;
-            cap.Listen();
+            //var cap = WinCapHelper.WinCapInstance;
+            string ver = SharpPcap.Version.VersionString;
+            Console.WriteLine(ver);
+            Console.ReadKey();
+            //cap.Listen();
         }
     }
 }

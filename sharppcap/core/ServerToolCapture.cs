@@ -45,6 +45,7 @@ namespace ServerToolCapture
 
         public void Listen()
         {
+            var test = SharpPcap.CaptureDeviceList.Instance;
             if (_thread != null && _thread.IsAlive)
             {
                 return;
